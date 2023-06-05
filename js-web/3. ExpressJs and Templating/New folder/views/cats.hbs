@@ -1,0 +1,21 @@
+{{#if cats}}
+    {{#each cats}}    
+
+        {{>cat}}
+
+    {{/each}}
+{{else}}
+
+    <strong>There are no cats</strong>
+
+{{/if}}
+
+<form method="POST">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" />
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" />
+    <input type="submit" value="Create" />
+</form>
+
+<a href="/">Home</a>

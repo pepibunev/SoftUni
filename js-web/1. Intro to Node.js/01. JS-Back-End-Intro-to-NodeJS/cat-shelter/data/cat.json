@@ -1,0 +1,22 @@
+{
+    "cats": [
+        {
+            "id": 1,
+            "name": "Navcho",
+            "breed": "Persian",
+            "description": "Very cute cat"
+        },
+        {
+            "id": 2,
+            "name": "Mishi",
+            "breed": "Angora",
+            "description": "Fluffy cat"
+        },
+        {
+            "id": 3,
+            "name": "Garry",
+            "breed": "Angora",
+            "description": "Fat cat"
+        }
+    ]
+}
